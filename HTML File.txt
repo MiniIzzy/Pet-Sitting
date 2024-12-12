@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini Izzy - Pet Sitting Services">
+    <title>Mini Izzy - Pet Sitting</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .service-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card h3 {
+            color: #ff6f61;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        .contact-info {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Font */
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mini Izzy</h1>
+    <p>Creative Pet Sitting Services</p>
+</header>
+
+<section>
+    <div class="intro-text">
+        <p>Welcome to Mini Izzy's Pet Sitting Services! I provide safe, loving, and fun care for your furry friends while you're away.</p>
+    </div>
+
+    <div class="services">
+        <div class="service-card">
+            <h3>Dog Sitting</h3>
+            <p>Fun and playful care for your dog. Walks, cuddles, and playtime included!</p>
+        </div>
+        <div class="service-card">
+            <h3>Cat Sitting</h3>
+            <p>Comfort and attention for your cats, including feeding, grooming, and companionship.</p>
+        </div>
+        <div class="service-card">
+            <h3>Small Animal Sitting</h3>
+            <p>Care for your small pets like rabbits, hamsters, and guinea pigs, with attention to detail.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mini Izzy - Pet Sitting Services</p>
+    <div class="contact-info">
+        <p>Email: miniizzy@petsitting.com | Phone: (123) 456-7890</p>
+    </div>
+</footer>
+
+</body>
+</html>
